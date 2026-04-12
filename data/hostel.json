@@ -1,0 +1,7 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "types": ["Double occupancy", "Triple occupancy"],
+  "feePerYear": "₹72,000 (sample, includes mess baseline)",
+  "rules": "Visitors 4–7 PM weekends; quiet hours 11 PM–6 AM; electrical appliances restricted (sample).",
+  "facilities": ["Wi‑Fi", "Laundry blocks", "Reading rooms", "Sports yard access"]
+}

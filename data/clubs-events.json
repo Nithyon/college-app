@@ -1,0 +1,6 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "clubs": ["Robotics Guild", "Literary Society", "CodeCraft", "Green Campus Initiative"],
+  "events": ["RIST Tech Summit (March, sample)", "Cultural week (November)", "Inter-college sports meet"],
+  "join": "Club fair first week of each semester; register via student portal."
+}

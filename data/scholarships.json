@@ -1,0 +1,8 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "types": [
+    { "name": "Merit scholarship", "eligibility": "Top 5% incoming batch (sample)", "benefit": "Up to 25% tuition waiver" },
+    { "name": "Need-based aid", "eligibility": "Income documentation + committee review", "benefit": "Partial waiver" }
+  ],
+  "process": "Apply within 30 days of admission; decisions in 21 days (sample)."
+}

@@ -1,0 +1,8 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "items": [
+    { "q": "How do I apply for B.Tech?", "a": "Use the admissions portal, upload documents, and complete the aptitude window (sample)." },
+    { "q": "Is hostel mandatory?", "a": "Not mandatory; allotment is based on availability and application order (sample)." },
+    { "q": "Where are timetables published?", "a": "Student portal and department notice boards; exams on the official exam portal (sample)." }
+  ]
+}

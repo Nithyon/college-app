@@ -1,0 +1,6 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "routes": ["City Central ↔ Campus", "Railway Junction ↔ Campus", "North Township ↔ Campus"],
+  "timings": "Morning 7:00–9:30; Evening 16:30–19:30 (sample)",
+  "feePerYear": "₹18,000 optional pass (sample)"
+}

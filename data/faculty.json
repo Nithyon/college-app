@@ -1,0 +1,7 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "members": [
+    { "name": "Dr. Ananya Mehta", "department": "CSE", "areas": ["NLP", "HCI"], "collab": "Email via research portal directory" },
+    { "name": "Dr. Rohan Varma", "department": "ECE", "areas": ["RF systems", "IoT"], "collab": "Book office hours through portal" }
+  ]
+}

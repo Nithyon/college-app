@@ -1,0 +1,8 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "courses": [
+    { "name": "B.Tech", "duration": "4 years", "eligibility": "10+2 with PCM; entrance score", "streams": ["CSE", "ECE", "ME", "CE"] },
+    { "name": "M.Tech", "duration": "2 years", "eligibility": "B.E./B.Tech in related field", "streams": ["CSE", "ECE", "ME"] },
+    { "name": "MBA", "duration": "2 years", "eligibility": "Bachelor degree + qualifying test", "streams": ["Management"] }
+  ]
+}

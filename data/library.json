@@ -1,0 +1,7 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "weekday": "8:00 AM – 9:00 PM",
+  "weekend": "9:00 AM – 5:00 PM",
+  "rules": "Silent zones; ID mandatory; digital lending via OPAC (sample).",
+  "resources": ["250k+ volumes (sample)", "IEEE/ACM digital access (sample)", "Discussion pods booking"]
+}

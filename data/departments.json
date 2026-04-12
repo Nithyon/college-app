@@ -1,0 +1,10 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "departments": [
+    { "code": "CSE", "name": "Computer Science & Engineering", "focus": "AI, systems, software engineering" },
+    { "code": "ECE", "name": "Electronics & Communication", "focus": "Embedded systems, signal processing" },
+    { "code": "ME", "name": "Mechanical Engineering", "focus": "Design, thermal, manufacturing" },
+    { "code": "CE", "name": "Civil Engineering", "focus": "Structures, infrastructure" },
+    { "code": "MBA", "name": "School of Management", "focus": "Strategy, analytics, operations" }
+  ]
+}

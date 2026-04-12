@@ -1,0 +1,9 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "rows": [
+    { "academicYear": "2022–23", "btech": "₹1,62,000", "mtech": "₹98,000", "mba": "₹1,28,000" },
+    { "academicYear": "2023–24", "btech": "₹1,72,000", "mtech": "₹1,04,000", "mba": "₹1,36,000" },
+    { "academicYear": "2024–25", "btech": "₹1,78,000", "mtech": "₹1,08,000", "mba": "₹1,40,000" }
+  ],
+  "note": "Tuition only (per year), sample figures for demo comparison."
+}

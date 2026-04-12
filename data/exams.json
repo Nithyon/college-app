@@ -1,0 +1,13 @@
+{
+  "_disclaimer": "Sample/demo data",
+  "officialPortalUrl": "https://exams.rist.edu.sample",
+  "types": ["Internal assessments", "Semester end examinations", "Supplementary examinations", "Entrance examinations"],
+  "byDepartment": {
+    "CSE": "Internals each month (sample); semester exams in Nov & May; supplementary within 30 days of results (sample).",
+    "ECE": "Laboratory evaluations + written internals; semester schedule aligned with academic calendar.",
+    "ME": "Workshop practicals + theory papers; makeup exams per academic rules (sample).",
+    "CE": "Studio reviews + written exams; supplementary as per notice.",
+    "MBA": "Case modules + end-term papers; reappear window in next trimester (sample)."
+  },
+  "default": "Contact your department office for the latest timetable. All official updates are published on the exam portal."
+}
