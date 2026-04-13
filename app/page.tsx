@@ -7,17 +7,17 @@ export default function Home() {
     <main className="bg-[var(--color-bg)] pb-16 pt-12">
       <CenteredContainer>
         <h1 className="text-center font-display text-4xl leading-tight text-[var(--color-text)] [font-variant:small-caps] [letter-spacing:0.04em] md:text-5xl">
-          College AI Assistant
+          SRMIST AI Assistant
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-justify font-body text-sm leading-relaxed tracking-wide text-[var(--color-text-muted)]">
-          Ask admissions, courses, fees, exams, placements, hostel, transport, library, scholarships, rules, research,
-          and contact options. Responses combine a lightweight knowledge retrieval layer with an optional Groq or
-          OpenRouter model. Without API keys, the assistant answers from local sample JSON safely.
+          Ask about SRMJEEE admissions, official fee pages, scholarships, placements, hostel, transport, library,
+          rules, research, and contact options. Responses combine official SRM links with a lightweight retrieval
+          layer and an optional Groq or OpenRouter model.
         </p>
 
         <div className="mt-12 grid gap-6 text-center sm:grid-cols-3">
           {[
-            { k: "Modes", v: "Live AI or Demo" },
+            { k: "Modes", v: "Live AI or Official references" },
             { k: "Voice", v: "Browser STT / TTS" },
             { k: "Audience", v: "Students · Parents · Staff" },
           ].map((c) => (
@@ -33,7 +33,7 @@ export default function Home() {
             Capabilities
           </h2>
           <ul className="mx-auto mt-6 max-w-2xl list-disc space-y-2 pl-5 font-body text-sm text-[var(--color-text)]">
-            <li>Intent-aware flows for exams (clarifying question), fees (tables + history), contact card, research portal.</li>
+            <li>Intent-aware flows for exams (clarifying question), fees (official reference cards), contact card, research portal.</li>
             <li>Source citations, confidence label, related prompts, copy, feedback capture, export.</li>
             <li>Admin dashboard with monochrome charts and local analytics persistence.</li>
           </ul>

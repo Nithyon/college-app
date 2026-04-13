@@ -17,11 +17,11 @@ const body = IBM_Plex_Mono({
   variable: "--font-body",
 });
 
-const college = process.env.NEXT_PUBLIC_COLLEGE_NAME || "Demo University";
+const college = process.env.NEXT_PUBLIC_COLLEGE_NAME || "SRM Institute of Science and Technology";
 
 export const metadata: Metadata = {
   title: `${college} — AI Assistant`,
-  description: "College information and student support assistant (academic demo).",
+  description: "Official SRMIST admissions, contacts, fee references, and student support assistant.",
 };
 
 export default function RootLayout({
@@ -36,7 +36,7 @@ export default function RootLayout({
           <SiteHeader />
           {children}
           <footer className="border-t border-[var(--color-border)] py-10 text-center font-body text-xs text-[var(--color-text-muted)]">
-            Sample data · Not an official publication
+            Official SRMIST references · Verify live admissions pages before acting
           </footer>
         </ThemeProvider>
       </body>

@@ -1,13 +1,13 @@
-# College AI Chatbot
+# SRMIST AI Assistant
 
-Next.js 14 app: Swiss editorial UI, JSON knowledge base, Groq / OpenRouter / mock AI, chat with intents, voice (Web Speech), and a local analytics admin view.
+Next.js 14 app: editorial UI, SRMIST admissions and contact references, Groq / OpenRouter / mock AI, chat with intents, voice (Web Speech), and a local analytics admin view.
 
 ## Features
 
 - Landing, chat assistant, knowledge index, admin dashboard (Recharts, grayscale).
 - Provider stack: `generateAnswer()` → Groq (OpenAI-compatible) → OpenRouter fallback → mock.
-- Intents: exams (clarifying question then answer), fees (tables + history), contact card, research portal, unknown fallback.
-- Demo mode when no API keys; live badge when keys are set.
+- Intents: exams (clarifying question then answer), fees (official reference cards), contact card, research portal, unknown fallback.
+- Live badge when keys are set; official SRMIST links are shown for admissions and contact flows.
 
 ## Run locally
 
@@ -75,7 +75,7 @@ npx vercel --prod
 
 ## Data
 
-All content under `data/*.json` is **sample/demo**. Replace with verified college data.
+All content under `data/*.json` is based on official SRMIST pages and public disclosure references where available. Program-specific fee amounts should always be verified on the live admissions pages.
 
 ## Future
 

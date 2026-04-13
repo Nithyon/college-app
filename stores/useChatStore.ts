@@ -20,13 +20,13 @@ const welcome: ChatMessage = {
   id: "welcome",
   role: "assistant",
   content:
-    "Welcome to the College AI Assistant. Answers are grounded in institutional sample data. Ask about admissions, fees, exams, placements, hostel, or research.",
+    "Welcome to the SRMIST AI Assistant. Answers are grounded in official SRM links, admissions pages, public disclosure documents, and program-specific references.",
   createdAt: Date.now(),
   confidence: "high",
   related: [
-    "What is the admission process for B.Tech?",
-    "What is the fee structure?",
-    "How can I connect with the college?",
+    "What is the SRMJEEE (UG) admission process?",
+    "Where do I check official fee details?",
+    "How do I contact SRMIST?",
   ],
 };
 

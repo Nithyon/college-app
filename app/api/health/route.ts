@@ -3,5 +3,5 @@ import { NextResponse } from "next/server";
 export const runtime = "nodejs";
 
 export async function GET() {
-  return NextResponse.json({ ok: true, service: "college-ai-chatbot", ts: Date.now() });
+  return NextResponse.json({ ok: true, service: "srmist-ai-assistant", ts: Date.now() });
 }

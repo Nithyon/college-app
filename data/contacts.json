@@ -1,11 +1,11 @@
 {
-  "_disclaimer": "Sample/demo data",
-  "officialEmail": "info@rist.edu.sample",
-  "admissionsEmail": "admissions@rist.edu.sample",
-  "supportEmail": "helpdesk@rist.edu.sample",
-  "phone": "+91-80-0000-0000",
-  "address": "RIST Campus Road, Sample District, India — 560000",
-  "instagram": "https://instagram.com/rist.sample",
-  "linkedin": "https://linkedin.com/school/rist-sample",
-  "website": "https://rist.edu.sample"
+  "_disclaimer": "Official SRMIST contact data",
+  "officialEmail": "infodesk@srmist.edu.in",
+  "admissionsEmail": "director.admissions@srmist.edu.in",
+  "supportEmail": "helpdesk@srmist.edu.in",
+  "phone": "+91 44 27417000 / +91 44 27417777 / +91 80 69087000",
+  "address": "SRM Institute of Science and Technology, Kattankulathur, Chennai, Tamil Nadu, India",
+  "instagram": "https://www.instagram.com/SRMUniversityOfficial/",
+  "linkedin": "https://www.linkedin.com/company/srm-ist-chennai",
+  "website": "https://www.srmist.edu.in/"
 }

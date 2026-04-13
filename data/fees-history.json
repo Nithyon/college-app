@@ -1,9 +1,9 @@
 {
-  "_disclaimer": "Sample/demo data",
+  "_disclaimer": "Official SRMIST fee reference data",
   "rows": [
-    { "academicYear": "2022–23", "btech": "₹1,62,000", "mtech": "₹98,000", "mba": "₹1,28,000" },
-    { "academicYear": "2023–24", "btech": "₹1,72,000", "mtech": "₹1,04,000", "mba": "₹1,36,000" },
-    { "academicYear": "2024–25", "btech": "₹1,78,000", "mtech": "₹1,08,000", "mba": "₹1,40,000" }
+    { "academicYear": "Official engineering page", "btech": "SRMJEEE (UG) portal", "mtech": "SRMJEEE (PG) portal", "mba": "MBA admissions page" },
+    { "academicYear": "Public disclosure", "btech": "Fee structure / admission policy", "mtech": "Fee structure / admission policy", "mba": "Fee structure / admission policy" },
+    { "academicYear": "Scholarship page", "btech": "Founder’s / Merit / category scholarships", "mtech": "As per official policy", "mba": "As per official policy" }
   ],
-  "note": "Tuition only (per year), sample figures for demo comparison."
+  "note": "SRMIST publishes program-specific fee information through its official admissions pages and public disclosure documents."
 }

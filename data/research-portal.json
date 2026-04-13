@@ -1,7 +1,7 @@
 {
-  "_disclaimer": "Sample/demo data",
-  "name": "RIST Faculty Research Navigator",
-  "url": "https://research.rist.edu.sample",
-  "summary": "Explore faculty profiles, research domains, ongoing projects, and publications. Use it to find collaborators and publication mentors.",
-  "categories": ["AI & data", "Communications", "Materials", "Sustainable systems", "Management science"]
+  "_disclaimer": "Official SRMIST research reference data",
+  "name": "SRMIST research and faculty resources",
+  "url": "https://www.srmist.edu.in/research/innovation-incubation/",
+  "summary": "Use the official research and innovation pages, faculty directory, and program finder to locate projects, collaborators, and publications.",
+  "categories": ["Innovation & incubation", "Faculty search", "Program finder", "Research policy", "Public disclosure"]
 }

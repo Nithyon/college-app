@@ -17,7 +17,7 @@ export function SiteHeader() {
     <header className="border-b border-[var(--color-border)] bg-[var(--color-bg)]">
       <CenteredContainer className="flex flex-col items-center gap-4 py-8">
         <div className="font-display text-center text-sm tracking-[0.2em] text-[var(--color-text-muted)]">
-          {process.env.NEXT_PUBLIC_COLLEGE_NAME || "Demo University"}
+          {process.env.NEXT_PUBLIC_COLLEGE_NAME || "SRM Institute of Science and Technology"}
         </div>
         <nav className="flex flex-wrap justify-center gap-2 font-body text-xs uppercase tracking-widest">
           {nav.map((n) => (

@@ -1,8 +1,10 @@
 {
-  "_disclaimer": "Sample/demo data",
+  "_disclaimer": "Official SRMIST scholarship reference data",
   "types": [
-    { "name": "Merit scholarship", "eligibility": "Top 5% incoming batch (sample)", "benefit": "Up to 25% tuition waiver" },
-    { "name": "Need-based aid", "eligibility": "Income documentation + committee review", "benefit": "Partial waiver" }
+    { "name": "Founder’s Scholarship", "eligibility": "Top school toppers, SRMJEEE (1-100 rank), JEE Advanced, and sports achievers", "benefit": "Full tuition waiver and support" },
+    { "name": "SRM Merit Scholarship", "eligibility": "SRMJEEE rank holders 101-500 for B.Tech admission", "benefit": "100% tuition fee waiver" },
+    { "name": "Employee Ward Scholarship", "eligibility": "Eligible wards of SRM employees", "benefit": "As per official policy" },
+    { "name": "Alumni Scholarship", "eligibility": "Eligible wards of SRM alumni", "benefit": "As per official policy" }
   ],
-  "process": "Apply within 30 days of admission; decisions in 21 days (sample)."
+  "process": "Check the official scholarship page and admissions office instructions for eligibility, application timing, and supporting documents."
 }

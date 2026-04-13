@@ -1,7 +1,7 @@
 {
-  "_disclaimer": "Sample/demo data",
+  "_disclaimer": "Official SRMIST faculty reference data",
   "members": [
-    { "name": "Dr. Ananya Mehta", "department": "CSE", "areas": ["NLP", "HCI"], "collab": "Email via research portal directory" },
-    { "name": "Dr. Rohan Varma", "department": "ECE", "areas": ["RF systems", "IoT"], "collab": "Book office hours through portal" }
+    { "name": "Use the official faculty search", "department": "All schools", "areas": ["Verified profiles", "Qualifications", "Publications"], "collab": "Search the SRMIST staff finder" },
+    { "name": "Research and innovation offices", "department": "University-wide", "areas": ["Projects", "Patents", "Incubation"], "collab": "Use the innovation and incubation page" }
   ]
 }

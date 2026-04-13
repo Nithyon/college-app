@@ -1,6 +1,6 @@
 {
-  "_disclaimer": "Sample/demo data",
-  "steps": ["Online application", "Document verification", "Entrance/interview window", "Merit list", "Fee payment & enrollment"],
-  "btech": "Apply via portal; upload marksheets; appear for RIST Aptitude Window (sample).",
-  "importantDates": "Applications open April 1 (sample); rounds through July (fictional)."
+  "_disclaimer": "Official SRMIST admissions reference data",
+  "steps": ["Choose the official program page", "Read eligibility and admission criteria", "Apply through the relevant SRM application portal", "Attend SRMJEEE / interview / other program-specific test when applicable", "Complete fee payment and enrollment"],
+  "btech": "Apply through the official SRMJEEE (UG) 2026 portal and follow the engineering admissions page for eligibility and instructions.",
+  "importantDates": "Check the official SRMJEEE (UG) 2026 Phase I notice and admissions pages for live dates and updates."
 }

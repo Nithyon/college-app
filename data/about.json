@@ -1,9 +1,9 @@
 {
-  "_disclaimer": "Sample/demo data for academic assignment",
-  "name": "Riverside Institute of Science & Technology",
-  "shortName": "RIST",
-  "overview": "RIST is a private autonomous institute focused on engineering, management, and applied sciences. Sample data only.",
-  "vision": "To cultivate inquiry-led learning and ethical leadership in technology.",
-  "mission": "Deliver rigorous curricula, industry partnerships, and inclusive student support.",
-  "rankingNote": "Ranked in top 120 private institutes (fictional survey, demo purposes)."
+  "_disclaimer": "Official SRMIST reference data",
+  "name": "SRM Institute of Science and Technology",
+  "shortName": "SRMIST",
+  "overview": "SRM Institute of Science and Technology is a deemed-to-be university with campuses in Kattankulathur, Ramapuram, Vadapalani, Trichy, NCR Delhi, and Acharapakkam.",
+  "vision": "To emerge as a world-class university in creating and disseminating knowledge and providing students a unique learning experience in Science, Technology, Medicine, Management and other areas of scholarship.",
+  "mission": "Move up through international alliances and collaborative initiatives, accomplish a process to advance knowledge, and attract and build people in an inspiring environment.",
+  "rankingNote": "See the official NIRF, IQAC, and public disclosure pages for current accreditation and ranking details."
 }

@@ -7,7 +7,7 @@ export function UiBlocksRenderer({ blocks }: { blocks: UiBlock[] }) {
         if (b.type === "fees") {
           return (
             <div key={i} className="bg-[var(--color-surface)] p-4">
-              <p className="mb-2 text-[var(--color-text-muted)]">Current fees (sample)</p>
+              <p className="mb-2 text-[var(--color-text-muted)]">Official fee references</p>
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse border border-[var(--color-border)] text-left text-xs">
                   <thead>
@@ -32,7 +32,7 @@ export function UiBlocksRenderer({ blocks }: { blocks: UiBlock[] }) {
                   </tbody>
                 </table>
               </div>
-              <p className="mt-4 text-[var(--color-text-muted)]">Year-wise comparison (tuition sample)</p>
+              <p className="mt-4 text-[var(--color-text-muted)]">Official program references</p>
               <div className="overflow-x-auto">
                 <table className="mt-2 w-full border-collapse border border-[var(--color-border)] text-left text-xs">
                   <thead>
@@ -58,6 +58,21 @@ export function UiBlocksRenderer({ blocks }: { blocks: UiBlock[] }) {
               <p className="mt-3 text-justify text-xs leading-relaxed text-[var(--color-text-muted)]">
                 {b.scholarshipNote}
               </p>
+              {b.sourceLinks?.length ? (
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {b.sourceLinks.map((link) => (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="border border-[var(--color-border)] px-3 py-2 text-xs uppercase tracking-widest"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              ) : null}
             </div>
           );
         }

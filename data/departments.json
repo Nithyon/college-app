@@ -1,10 +1,10 @@
 {
-  "_disclaimer": "Sample/demo data",
+  "_disclaimer": "Official SRMIST department reference data",
   "departments": [
-    { "code": "CSE", "name": "Computer Science & Engineering", "focus": "AI, systems, software engineering" },
-    { "code": "ECE", "name": "Electronics & Communication", "focus": "Embedded systems, signal processing" },
-    { "code": "ME", "name": "Mechanical Engineering", "focus": "Design, thermal, manufacturing" },
-    { "code": "CE", "name": "Civil Engineering", "focus": "Structures, infrastructure" },
-    { "code": "MBA", "name": "School of Management", "focus": "Strategy, analytics, operations" }
+    { "code": "CET", "name": "Engineering & Technology", "focus": "Official engineering admissions and programs" },
+    { "code": "MHS", "name": "Medical & Health Sciences", "focus": "Official medical and health sciences admissions" },
+    { "code": "MGT", "name": "Management", "focus": "MBA, BBA, and management programs" },
+    { "code": "SH", "name": "Science & Humanities", "focus": "UG and PG science and humanities programs" },
+    { "code": "LAW", "name": "Law", "focus": "Integrated law and LL.B / LL.M programs" }
   ]
 }

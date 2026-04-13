@@ -39,7 +39,13 @@ export interface ContactData {
 }
 
 export type UiBlock =
-  | { type: "fees"; rows: FeeRow[]; history: FeeHistoryRow[]; scholarshipNote: string }
+  | {
+      type: "fees";
+      rows: FeeRow[];
+      history: FeeHistoryRow[];
+      scholarshipNote: string;
+      sourceLinks?: { label: string; href: string }[];
+    }
   | { type: "contact"; data: ContactData }
   | { type: "research"; portalUrl: string; summary: string; categories: string[] }
   | { type: "examCta"; url: string; label: string };
