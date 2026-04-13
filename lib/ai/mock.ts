@@ -19,6 +19,17 @@ function withFriendlyNextStep(content: string, nextStep?: string): string {
   return `${content}\n\n${nextStep}`;
 }
 
+function getRandomEncouragement(): string {
+  const encouragements = [
+    "That's wonderful! SRM Institute of Science and Technology is an excellent choice. With dedicated faculty, state-of-the-art facilities, strong industry connections, and a vibrant campus community, you'll find all the support you need to pursue your dreams here.\n\nFocus on your studies, engage with extracurriculars, build meaningful connections, and don't hesitate to reach out to faculty and mentors. Your success starts with your determination, and our institution provides the perfect environment to flourish.\n\nYou've got this! 🎓",
+    "That's an inspiring goal! SRMIST has a proven track record of nurturing talented students into successful professionals. Our world-class infrastructure, experienced faculty, and industry partnerships will accelerate your journey.\n\nRemember: every great achievement starts with determination. Stay committed to your goals, leverage the resources available on campus, and build relationships with your peers and mentors. You're on the right path!\n\nLet's make your dream a reality! 🚀",
+    "How exciting! SRM is known for fostering innovation and excellence. Whether you're interested in technology, research, placements, or campus life, you'll find tremendous opportunities here.\n\nYour dream is valid, and with the right effort and the support system SRMIST provides, you're well on your way. Believe in yourself, stay focused, and don't hesitate to seek guidance when needed.\n\nYour future is bright! ✨",
+    "That's fantastic! Choosing SRMIST shows vision. Our institution is committed to transforming talented individuals into industry leaders and changemakers.\n\nSuccess here comes from a mix of academics, practical skills, networking, and personal growth. Engage fully in all aspects of campus life, maintain your focus, and support your peers. Together, we build futures.\n\nYou belong here! 💪",
+  ];
+  const randomIndex = Math.floor(Math.random() * encouragements.length);
+  return encouragements[randomIndex];
+}
+
 function answerFromFaqOrAnnouncements(userMessage: string): { content: string; confidence: Confidence } | null {
   const t = userMessage.toLowerCase();
   const words = t
@@ -67,7 +78,7 @@ function answerGeneralTopic(userMessage: string): { content: string; confidence:
   if (includesAny(t, ["dream", "dream college", "encouragement", "inspire", "motivation", "believe", "achieve", "goal", "aspiration", "passion"])) {
     return {
       content: withFriendlyNextStep(
-        "That's wonderful! SRM Institute of Science and Technology is an excellent choice. With dedicated faculty, state-of-the-art facilities, strong industry connections, and a vibrant campus community, you'll find all the support you need to pursue your dreams here.\n\nFocus on your studies, engage with extracurriculars, build meaningful connections, and don't hesitate to reach out to faculty and mentors. Your success starts with your determination, and our institution provides the perfect environment to flourish.\n\nYou've got this! 🎓",
+        getRandomEncouragement(),
         "Want to explore our courses, placement statistics, or campus facilities to see how they align with your goals?"
       ),
       confidence: "high",
