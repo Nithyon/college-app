@@ -245,8 +245,7 @@ function answerGeneralTopic(userMessage: string): { content: string; confidence:
       ]
         .filter(Boolean)
         .join("\n"),
-        "If you share your area, I can suggest the most likely route.
-"
+        "If you share your area, I can suggest the most likely route."
       ).trim(),
       confidence: "medium",
     };

@@ -3,8 +3,5 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "outputDirectory": ".next",
-  "env": {
-    "OPENROUTER_API_KEY": "@openrouter-api-key"
-  }
+  "outputDirectory": ".next"
 }
