@@ -64,7 +64,15 @@ function answerFromFaqOrAnnouncements(userMessage: string): { content: string; c
 
 function answerGeneralTopic(userMessage: string): { content: string; confidence: Confidence } | null {
   const t = userMessage.toLowerCase();
-
+  if (includesAny(t, ["dream", "dream college", "encouragement", "inspire", "motivation", "believe", "achieve", "goal", "aspiration", "passion"])) {
+    return {
+      content: withFriendlyNextStep(
+        "That's wonderful! SRM Institute of Science and Technology is an excellent choice. With dedicated faculty, state-of-the-art facilities, strong industry connections, and a vibrant campus community, you'll find all the support you need to pursue your dreams here.\n\nFocus on your studies, engage with extracurriculars, build meaningful connections, and don't hesitate to reach out to faculty and mentors. Your success starts with your determination, and our institution provides the perfect environment to flourish.\n\nYou've got this! 🎓",
+        "Want to explore our courses, placement statistics, or campus facilities to see how they align with your goals?"
+      ),
+      confidence: "high",
+    };
+  }
   if (includesAny(t, ["admission", "admissions", "apply", "application", "srmjeee", "eligibility"])) {
     const admissions = kb.admissions as {
       btech?: string;
